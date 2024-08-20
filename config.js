@@ -13,7 +13,8 @@ global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
 global.packname = 'Made With'
 global.author = 'Bot WhatsApp'
 global.autobio = false // Set true untuk mengaktifkan autobio
-global.maxwarn = '2' // Peringatan maksimum
+global.maxwarn = '2' // Peringatan maksimumg
+global.apii = '`https://widipe.com/'
 
 //INI WAJIB DI ISI!//
 global.btc = 'YOUR_APIKEY_HERE' 
@@ -24,10 +25,12 @@ global.lann = 'YOUR_APIKEY_HERE'
 //Daftar https://api.betabotz.eu.org 
 
 global.APIs = {   
-  btc: 'https://api.botcahx.eu.org'
+  btc: 'https://api.botcahx.eu.org',
+  wdp: 'https://widipe.com/'
 }
 global.APIKeys = { 
-  'https://api.botcahx.eu.org': 'APIKEY' 
+  'https://api.botcahx.eu.org': 'APIKEY',
+  'https://widipe.com': 'APIKEY'
 }
 
 let fs = require('fs')
